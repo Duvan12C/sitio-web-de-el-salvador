@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/colores.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./fondo.css">
+    <link rel="stylesheet" href="Pital.css">
+    <title>Sitios Turisticos</title>
+</head>
+<body>
+
+    <header class="menu">
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            <div class="container-fluid ">
+                <a class="navbar-brand " href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <div class="dropdown">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link bg"> <i class="fa-solid fa-house"></i> INICIO</a>
+                        </li>
+                    </div>
+                    <div class="dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-location-dot"></i> LUGARES
+                              </a>
+                              <ul class="dropdown-menu p" aria-labelledby="dropdownMenuLink">
+                                <li>  <a href="./cerroVerde.html" class="dropdown-item"><i class="fa-solid fa-mountain"></i> El Cerro Verde</a> </li>
+                                <li> <a href="./boquero.html" class="dropdown-item"> <i class="fa-solid fa-tree"></i> El Boquero</a> </li>
+                                <li> <a href="./lagoCuatepeque.html" class="dropdown-item"> <i class="fa-solid fa-water"></i> Lago de Coatepeque</a> </li>
+                                <li> <a href="./boquero.html" class="dropdown-item"><i class="fa-solid fa-volcano"></i> Cerro el Pital</a> </li>
+                                <li> <a href="./flores.html" class="dropdown-item"><i class="fa-solid fa-trillium"></i> La ruta de las Flores</a> </li>
+                                <li> <a href="./playa.html" class="dropdown-item"><i class="fa-solid fa-umbrella-beach"></i> Puerto la Libertad</a> </li>
+                              </ul>
+                        </li>
+                    </div>
+                       <div class="dropdown">
+                        <li class="nav-item">
+                            <a href="./sobreLaPagina.html" class="nav-link"><i class="fa-solid fa-circle-info"></i> SOBRE LA PAGINA</a>
+                        </li>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+<div class="container text-white">
+<div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Cerro el Pital</h1>
+    <p class="col-md-8 fs-4">¿Quieres llegar al punto más alto de El Salvador? Entonces sube el cerro El Pital, un paraíso lleno de vegetación 
+        propia del clima frío, que brinda bellos y coloridos paisajes para los amantes del ecoturismo.</p>
+        <p class="col-md-8 fs-4">Camping, observación de fauna y flora y caminatas por los diferentes senderos, 
+            son parte de las actividades que podrás realizar. La zona de acampar se encuentra entre los dos picos de
+             la montaña, por lo que se forma un corredor de viento con una agradable neblina que te acompañará durante 
+              estadía en este hermoso lugar.
+        </p>
+<button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Acampar
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content tarjeta1">
+        <div class="modal-header ">
+          <h5 class="modal-title text-center" id="exampleModalLabel">Acampar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body align-items-center align-content-center">
+            <div class="container ">
+          <img src="./img/pital2.jpg" width="440px" alt="">
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
+          <button class="btn boton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Informacion</button>
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel">Camping</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>
+        
+Para llegar a la zona de camping subirás 5 kilómetros de aventura, disfrutando de 
+un ambiente natural de bosque. Durante el recorrido verás sembradíos de hortalizas, 
+pinares y bellos paisajes llenos de flores. Los riachuelos de frías aguas son otra 
+de las grandezas que disfrutarás mientras caminas rumbo a El Pital.
+    </p>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--seccion de restaunrantes-->
+  <div class="row align-items-md-stretch mb-4">
+    <div class="col-md-6">
+      <div class="h-100 p-5 tarjeta1 rounded-3 ">
+        <h2>Restaurantes</h2>
+<!---Inicio de acordio de restaurantes-->
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    EL Pital Ecolodge
+                </button>
+              </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <div class="card tarjeta1 mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="./img/restaurante1pital.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text">
+                                "Bienvenidos a Ecolodge, ubicados en la parte alta del país, Somos una nueva opcion turistica de la zona alta del país.
+                                Ofrecemos, cabañas, habitaciones, miradores temáticos, camping y restaurante con un sabor unico en toda la zona. Poseemos una maravillosa vista 
+                                del país, bosques, nacimientos y miradores.
+                              </p>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Los Nacimientos
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <div class="card tarjeta1 mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="./img/restaurante2pital.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text">
+                                Los Nacimientos es un sitio para acercarse a la naturaleza. Un distanciamiento social natural 
+                                con restaurante al aire libre. Es un espacio de 2 manzanas donde puedes encontrar nacimientos 
+                                de agua y disfrutar del descanso al aire libre.
+                              </p>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Hotel y Restaurante La Posada del Cielo
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <div class="card tarjeta1 mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="./img/restaurante3pital.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text">
+                                Comunícate con esta propiedad para conocer las tarifas y la disponibilidad
+                              </p>
+                            <p>
+                              <strong>Telefono:</strong>  2289 2843
+                            </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>              
+                </div>
+            </div>
+        </div> 
+<!---Fin de acordio de restaurantes-->  
+       <div class="col mt-3">
+         <img src="./img/pital3.jpg" width="100%" alt="">
+       </div>   
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="h-100 p-5 tarjeta1 border rounded-3">
+        <h2>Ubicacion</h2>
+        <p>
+            El cerro El Pital se encuentra ubicado específicamente en el caserío El Pital, cantón Río Chiquito.
+            Esto es en el municipio de San Ignacio, departamento de Chalatenango en El Salvador. Se ubica a 93
+            kilómetros de la capital San Salvador y a 12 kilómetros de la ciudad de San Ignacio. Su referencia
+            geográfica es 14º22’ Latitud Norte y 089º07’ Longitud Oeste.
+        </p>
+        <div class="col">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30917.34701370281!2d-89.1435172274365!3d14.388588956006592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63a22e2515544b%3A0x29d828ff57aed1dd!2sCerro%20El%20Pital!5e0!3m2!1ses!2ssv!4v1671557045156!5m2!1ses!2ssv" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+      </div>
+    </div>
+    </div>
+  </div>
+
+<!--fin de seccion de restaurantes-->
+
+</div> 
+
+<footer class=" w-100 d-flex align-items justify-content-center text-white border-bottom">
+        <div class="container-fluid align-self-end ">
+            <div class="row p-5 text-center ">
+                <div class="col-lg-12">
+                    <h3>El Salvador</h3>
+                </div>
+                <div class="col-lg-12">
+                   <cite>  <small>Duvan Ernesto Castellanos Gonzalez</small> </cite>
+                   <br>
+                   <cite>propiedad de Duvan</cite>
+                </div>
+            </div>
+        </div>
+</footer>        
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="./js/all.min.js"></script>
+    </body>
+    </html>

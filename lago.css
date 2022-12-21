@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(0 0 0 / .5),rgb(0 0 0 / .5)), url(./img/lago1.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+
+}
+
+
+footer{
+    background: rgba(255,255,255,0.23);
+    box-shadow: 0 9px 32px 0 rgba(31,38,165,0.37);
+    backdrop-filter: blur(2px);
+    color: black;
+    font-size: 14px;
+    
+}
+
+.dropdown-item, .nav-link{
+    color: white;
+}
+
+.caja{
+    
+    color: beige;
+    height: 433px;
+}
+
+h1{
+    font-size: 75px;
+}
+
+
+
+.nav-link::after{
+   content: "";
+   width: 0;
+   height: 4px;
+   background-color: aqua;
+   position: absolute;
+   bottom: 0;
+   right: 50%;
+   transition: all .5s;
+   will-change: width;
+}
+
+.accordion-button::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+ }
+
+
+ 
+
+
+.nav-link:hover::after{
+    width: 100%;
+    right: 0;
+    
+}
+
+.accordion-button:hover::after{
+    width: 100%;
+    right: 0;
+    
+}
+
+.nav-link:hover{
+    color: aqua;
+}
+
+
+.boton{
+    color: rgb(255, 255, 255);
+    border-radius:4px;
+    border-color: aqua;
+}
+
+.boton:hover{
+    color: rgb(248, 253, 253);
+    background-color: black;
+    border-color: aqua;
+}
+
+
+
+.accordion-button:hover{
+    color: aqua;
+}
+
+.dropdown-menu li a:hover{
+    color: white;
+    transform: scale(1.1);
+    background: rgb(7, 192, 192);
+    border: 1px solid aqua ;
+}
+
+.accordion-button:hover{
+    color: white;
+    transform: scale(1.1);
+    background: rgb(7, 192, 192);
+    border: 1px solid aqua ;
+}
+
+.p,.tarjeta1,.accordion-item,.accordion-button,.conte3,.offcanvas,.list-group-item{
+    background: rgba(255,255,255,0.23);
+    box-shadow: 0 9px 32px 0 rgba(31,38,165,0.37);
+    backdrop-filter: blur(2px);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    
+}
+
+
+iframe{
+    border-radius: 5px;
+    border-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
